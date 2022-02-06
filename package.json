@@ -19,6 +19,7 @@
     "gen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.3",
     "cross-env": "^7.0.3",
     "graphql": "^16.2.0",
     "netlify-plugin-contextual-env": "^0.3.0",
