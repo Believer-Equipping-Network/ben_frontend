@@ -5,6 +5,8 @@ import NProgress from "nprogress";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/globals.css";
+import "swiper/css";
+import "swiper/css/pagination";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();

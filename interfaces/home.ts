@@ -12,3 +12,20 @@ export interface MessageProps {
   name: string;
   href: string;
 }
+
+export interface TestimonialsProps {
+  id: number;
+  stars: number;
+  profileImageSrc: string;
+  heading: string;
+  quote: string;
+  name: string;
+  profession: string;
+}
+
+export interface FeaturesProps {
+  id: number;
+  name: string;
+  description: string;
+  icon: IconType;
+}
