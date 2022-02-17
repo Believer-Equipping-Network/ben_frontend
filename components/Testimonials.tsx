@@ -114,14 +114,14 @@ const Testimonials = () => {
                         color: "red",
                         paddingRight: 20,
                       }}
-                    ></div>
+                    />
                     <div
                       className="swiper-button-next"
                       style={{
                         color: "rosybrown",
                         paddingLeft: 20,
                       }}
-                    ></div>
+                    />
                   </div>
                 </div>
               </Swiper>

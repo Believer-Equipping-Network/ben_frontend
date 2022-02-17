@@ -2,16 +2,11 @@ import {
   MessageProps,
   ResourcesProps,
   TestimonialsProps,
+  UpcomingEventsProps,
 } from "./../interfaces/home";
 import { AiOutlineCalendar } from "react-icons/ai";
 import { BiBible, BiHelpCircle } from "react-icons/bi";
 import { HiOutlineAnnotation } from "react-icons/hi";
-// import {
-//   AnnotationIcon,
-//   GlobeAltIcon,
-//   LightningBoltIcon,
-//   ScaleIcon,
-// } from "@heroicons/react/outline";
 
 export const resources: ResourcesProps[] = [
   {
@@ -95,5 +90,60 @@ export const features = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
     icon: HiOutlineAnnotation,
+  },
+];
+
+export const upcomingEvents: UpcomingEventsProps[] = [
+  {
+    id: 1,
+    title: "Wyatt Residency",
+    description:
+      "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+    location: "Rome, italy",
+    virtual: true,
+    date: "2020-06-01",
+    imageUri:
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+    mapCoordinates: null,
+    reminderSet: true,
+  },
+  {
+    id: 2,
+    title: "Soho Paradise",
+    description:
+      "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+    location: "Rome, italy",
+    virtual: false,
+    date: "2020-06-01",
+    imageUri:
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+    mapCoordinates: null,
+    reminderSet: false,
+  },
+  {
+    id: 3,
+    title: "Hotel Baja",
+    description:
+      "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+    location: "Rome, italy",
+    virtual: false,
+    date: "2020-06-01",
+    imageUri:
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+    mapCoordinates: null,
+    reminderSet: true,
+  },
+  {
+    id: 4,
+    title: "Hudak Homes",
+    description:
+      "Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do eiusmod tempor nova incididunt ut labore et dolore magna aliqua.",
+    location: "Rome, italy",
+    virtual: true,
+    date: "2020-06-01",
+    imageUri:
+      "https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1024&w=768&q=80",
+    mapCoordinates: null,
+    reminderSet: false,
   },
 ];

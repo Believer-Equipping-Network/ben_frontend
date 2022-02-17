@@ -29,3 +29,15 @@ export interface FeaturesProps {
   description: string;
   icon: IconType;
 }
+
+export interface UpcomingEventsProps {
+  id: number;
+  title: string;
+  imageUri: string;
+  description: string;
+  location: string;
+  virtual: boolean;
+  date: string;
+  mapCoordinates?: any;
+  reminderSet?: boolean;
+}

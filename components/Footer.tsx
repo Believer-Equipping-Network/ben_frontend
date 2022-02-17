@@ -1,12 +1,10 @@
 import React from "react";
 import {
-  FaChevronCircleUp,
-  FaYoutubeSquare,
-  FaInstagramSquare,
   FaFacebookSquare,
+  FaInstagramSquare,
   FaTwitterSquare,
+  FaYoutubeSquare,
 } from "react-icons/fa";
-import BackToTop from "react-back-to-top-button";
 
 const Footer = () => {
   return (
@@ -146,15 +144,12 @@ const Footer = () => {
         </div>
         <hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700" />
         <div>
-          <p className="text-center text-gray-800 dark:text-white">
-            © Belivers Equipping Network {new Date().getFullYear()} - All rights
-            reserved
+          <p className="text-center text-white">
+            © Believers Equipping Network {new Date().getFullYear()} - All
+            rights reserved
           </p>
         </div>
       </div>
-      <BackToTop speed={500} easing="easeInOutQuint">
-        <FaChevronCircleUp color="#DC2626" className="" />
-      </BackToTop>
     </footer>
   );
 };
